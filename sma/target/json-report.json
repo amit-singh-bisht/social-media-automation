@@ -1,0 +1,94 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2022-02-13T13:55:43.654Z",
+        "line": 13,
+        "name": "Login to instagram",
+        "description": "",
+        "id": "instagram-automation;login-to-instagram;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4106204000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I enter below instagramUrl",
+            "match": {
+              "arguments": [
+                {
+                  "val": "instagramUrl",
+                  "offset": 14
+                }
+              ],
+              "location": "stepDefinitions.Instagram.i_enter_url(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 884090000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I enter my username as amitsinghbisht321@gmail.com and password as hansaben@7",
+            "match": {
+              "arguments": [
+                {
+                  "val": "amitsinghbisht321@gmail.com",
+                  "offset": 23
+                },
+                {
+                  "val": "hansaben@7",
+                  "offset": 67
+                }
+              ],
+              "location": "stepDefinitions.Instagram.i_enter_my_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "io.cucumber.java.PendingException: TODO: implement me\n\tat stepDefinitions.Instagram.i_click_on_login_button(Instagram.java:24)\n\tat ✽.I click on login button(file:///Users/amitsinghbisht/eclipse-workspace/sma/src/test/resources/features/instagram.feature:9)\n",
+              "duration": 2980000,
+              "status": "pending"
+            },
+            "line": 9,
+            "name": "I click on login button",
+            "match": {
+              "location": "stepDefinitions.Instagram.i_click_on_login_button()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@instagram"
+          },
+          {
+            "name": "@instagram_login"
+          }
+        ]
+      }
+    ],
+    "name": "Instagram Automation",
+    "description": "  We are automating instagram as a social media app to genrate automatic likes, comment and views",
+    "id": "instagram-automation",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/instagram.feature",
+    "tags": [
+      {
+        "name": "@instagram",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

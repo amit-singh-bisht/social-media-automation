@@ -1,0 +1,10 @@
+
+@instagram @instagram_login
+Scenario Outline: Login to instagram                                                 [90m# src/test/resources/features/instagram.feature:13[0m
+  [32mGiven [0m[32mI enter below [0m[32m[1minstagramUrl[0m                                                   [90m# stepDefinitions.Instagram.i_enter_url(java.lang.String)[0m
+  [32mWhen [0m[32mI enter my username as [0m[32m[1mamitsinghbisht321@gmail.com[0m[32m and password as [0m[32m[1mhansaben@7[0m [90m# stepDefinitions.Instagram.i_enter_my_and(java.lang.String,java.lang.String)[0m
+  [33mThen [0m[33mI click on login button[0m                                                       [90m# stepDefinitions.Instagram.i_click_on_login_button()[0m
+      [33mio.cucumber.java.PendingException: TODO: implement me
+	at stepDefinitions.Instagram.i_click_on_login_button(Instagram.java:24)
+	at ✽.I click on login button(file:///Users/amitsinghbisht/eclipse-workspace/sma/src/test/resources/features/instagram.feature:9)
+[0m

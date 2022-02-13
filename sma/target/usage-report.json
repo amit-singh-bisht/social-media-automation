@@ -1,0 +1,38 @@
+[
+  {
+    "source": "^I enter below (.+)$",
+    "steps": [
+      {
+        "name": "I enter below instagramUrl",
+        "aggregatedDurations": {
+          "median": 4.106204,
+          "average": 4.106204
+        },
+        "durations": [
+          {
+            "duration": 4.106204,
+            "location": "file:///Users/amitsinghbisht/eclipse-workspace/sma/src/test/resources/features/instagram.feature:7"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I enter my username as (.+) and password as (.+)$",
+    "steps": [
+      {
+        "name": "I enter my username as amitsinghbisht321@gmail.com and password as hansaben@7",
+        "aggregatedDurations": {
+          "median": 0.88409,
+          "average": 0.88409
+        },
+        "durations": [
+          {
+            "duration": 0.88409,
+            "location": "file:///Users/amitsinghbisht/eclipse-workspace/sma/src/test/resources/features/instagram.feature:8"
+          }
+        ]
+      }
+    ]
+  }
+]

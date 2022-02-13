@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="5.359">
+    <testcase classname="Instagram Automation" name="Login to instagram" time="5.116">
+        <failure message="The scenario has pending or undefined step(s)" type="io.cucumber.java.PendingException">
+            <![CDATA[Given I enter below instagramUrl............................................passed
+When I enter my username as amitsinghbisht321@gmail.com and password as hansaben@7.passed
+Then I click on login button................................................pending
+]]>
+        </failure>
+    </testcase>
+</testsuite>
